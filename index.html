@@ -366,11 +366,16 @@ tailwind.config = {
           </li>
         </ul>
 
-        <div class="grille-frame grille-frame-2 overflow-hidden mb-6 aspect-[4/3]">
-          <iframe title="Mapa de ubicación de la ceremonia en el Casco Antiguo de Sevilla" src="https://www.google.com/maps?q=Casco+Antiguo,+Sevilla&output=embed" class="w-full h-full border-0" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="map-embed grille-frame grille-frame-2 overflow-hidden mb-6 aspect-[4/3] relative bg-iron-soft">
+          <div class="map-fallback absolute inset-0 flex flex-col items-center justify-center text-center gap-4 px-6">
+            <svg class="w-8 h-8 text-terracotta-light" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M128,68a36,36,0,1,0,36,36A36,36,0,0,0,128,68Zm0,64a28,28,0,1,1,28-28A28,28,0,0,1,128,132Zm0-112a84.09,84.09,0,0,0-84,84c0,30.42,14.17,62.79,41,93.62a250,250,0,0,0,40.73,37.66,4,4,0,0,0,4.58,0A250,250,0,0,0,171,197.62c26.81-30.83,41-63.2,41-93.62A84.09,84.09,0,0,0,128,20Zm37.1,172.23A254.62,254.62,0,0,1,128,227a254.62,254.62,0,0,1-37.1-34.81C73.15,171.8,52,139.9,52,104a76,76,0,0,1,152,0C204,139.9,182.85,171.8,165.1,192.23Z"/></svg>
+            <p class="font-display text-xl text-plaster leading-snug">Calle Alfonso XII, 14<br><span class="text-plaster/80 text-base">41001 Sevilla</span></p>
+            <a href="https://www.google.com/maps/search/?api=1&query=Calle+Alfonso+XII+14,+41001+Sevilla" target="_blank" rel="noopener" class="btn-iron inline-flex items-center bg-terracotta-deep text-plaster text-[13px] tracking-wide-lg uppercase px-7 py-3.5">Abrir en Google Maps</a>
+          </div>
+          <iframe title="Mapa de ubicación de la ceremonia: Calle Alfonso XII, 14, Sevilla" data-src="https://www.google.com/maps?q=Calle+Alfonso+XII+14,+41001+Sevilla&z=16&output=embed" class="absolute inset-0 w-full h-full border-0" hidden loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
-        <a href="https://www.google.com/maps/dir/?api=1&destination=Casco+Antiguo,+Sevilla" target="_blank" rel="noopener" class="link-underline inline-flex items-center gap-2 text-sm tracking-wide-lg uppercase text-terracotta-light mt-auto w-fit">
+        <a href="https://www.google.com/maps/dir/?api=1&destination=Calle+Alfonso+XII+14,+41001+Sevilla" target="_blank" rel="noopener" class="link-underline inline-flex items-center gap-2 text-sm tracking-wide-lg uppercase text-terracotta-light mt-auto w-fit">
           Cómo llegar
           <svg class="w-4 h-4" viewBox="0 0 256 256" fill="currentColor"><path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"/></svg>
         </a>
@@ -395,11 +400,16 @@ tailwind.config = {
           </li>
         </ul>
 
-        <div class="grille-frame grille-frame-2 overflow-hidden mb-6 aspect-[4/3]">
-          <iframe title="Mapa de ubicación de la celebración en Sevilla" src="https://www.google.com/maps?q=Avenida+de+la+Constitucion,+Sevilla&output=embed" class="w-full h-full border-0" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="map-embed grille-frame grille-frame-2 overflow-hidden mb-6 aspect-[4/3] relative bg-iron-soft">
+          <div class="map-fallback absolute inset-0 flex flex-col items-center justify-center text-center gap-4 px-6">
+            <svg class="w-8 h-8 text-terracotta-light" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M128,68a36,36,0,1,0,36,36A36,36,0,0,0,128,68Zm0,64a28,28,0,1,1,28-28A28,28,0,0,1,128,132Zm0-112a84.09,84.09,0,0,0-84,84c0,30.42,14.17,62.79,41,93.62a250,250,0,0,0,40.73,37.66,4,4,0,0,0,4.58,0A250,250,0,0,0,171,197.62c26.81-30.83,41-63.2,41-93.62A84.09,84.09,0,0,0,128,20Zm37.1,172.23A254.62,254.62,0,0,1,128,227a254.62,254.62,0,0,1-37.1-34.81C73.15,171.8,52,139.9,52,104a76,76,0,0,1,152,0C204,139.9,182.85,171.8,165.1,192.23Z"/></svg>
+            <p class="font-display text-xl text-plaster leading-snug">Avenida de la Constitución, 22<br><span class="text-plaster/80 text-base">41004 Sevilla</span></p>
+            <a href="https://www.google.com/maps/search/?api=1&query=Avenida+de+la+Constitucion+22,+41004+Sevilla" target="_blank" rel="noopener" class="btn-iron inline-flex items-center bg-terracotta-deep text-plaster text-[13px] tracking-wide-lg uppercase px-7 py-3.5">Abrir en Google Maps</a>
+          </div>
+          <iframe title="Mapa de ubicación de la celebración: Avenida de la Constitución, 22, Sevilla" data-src="https://www.google.com/maps?q=Avenida+de+la+Constitucion+22,+41004+Sevilla&z=16&output=embed" class="absolute inset-0 w-full h-full border-0" hidden loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
-        <a href="https://www.google.com/maps/dir/?api=1&destination=Avenida+de+la+Constitucion,+Sevilla" target="_blank" rel="noopener" class="link-underline inline-flex items-center gap-2 text-sm tracking-wide-lg uppercase text-terracotta-light mt-auto w-fit">
+        <a href="https://www.google.com/maps/dir/?api=1&destination=Avenida+de+la+Constitucion+22,+41004+Sevilla" target="_blank" rel="noopener" class="link-underline inline-flex items-center gap-2 text-sm tracking-wide-lg uppercase text-terracotta-light mt-auto w-fit">
           Cómo llegar
           <svg class="w-4 h-4" viewBox="0 0 256 256" fill="currentColor"><path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"/></svg>
         </a>
@@ -955,6 +965,22 @@ tailwind.config = {
       pagination: { el: '.swiper-pagination', clickable: true }
     });
   }
+
+  /* ---------- Maps: iframe only outside in-app WebViews ---------- */
+  (function initMaps() {
+    var ua = navigator.userAgent || '';
+    var inApp = /Instagram|FBAN|FBAV|FB_IAB|Messenger|TikTok|musical_ly|Snapchat|Line\/|LinkedInApp|Pinterest|Twitter|;\s?wv\)/i.test(ua)
+      || (/(iPhone|iPod|iPad)/.test(ua) && !/Safari/.test(ua));
+    if (inApp) return;
+    document.querySelectorAll('.map-embed').forEach(function (box) {
+      var frame = box.querySelector('iframe');
+      var fallback = box.querySelector('.map-fallback');
+      if (!frame) return;
+      frame.addEventListener('load', function () { if (fallback) fallback.style.visibility = 'hidden'; });
+      frame.src = frame.getAttribute('data-src');
+      frame.hidden = false;
+    });
+  })();
 
   /* ---------- GSAP reveals ---------- */
   function initReveals() {
